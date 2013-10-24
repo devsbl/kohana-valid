@@ -6,3 +6,6 @@ Kohana Valid: NIP, REGON, PESEL
 
 Valid::pesel('00000000000');  
 Zwraca TRUE lub FALSE
+
+Klasę należy umieścić w katalogu /application/classes/valid.php
+Dzięki kaskadowości zachowamy pozostałe funkcje Kohana_Valid
